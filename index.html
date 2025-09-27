@@ -23,40 +23,73 @@
     <main class="container py-4">
         <h1 class="mb-2">Hello, my name is Emilio Pinales</h1>
         <p class="mb-3">
-            This paragraph uses the page text color. Here’s a <a href="#">content link</a>.
+            I am 21 years old. On my third year at MSU Denver. This would be my first semester in this school since I went to Front Range community college for two years.
+            I am currently in school for a <a href="https://www.msudenver.edu/computer-sciences/computer-science-major-bs/">computer science</a> degree. A fun fact about 
+            is that I know three languages which are Enlgish, Spanish and the most recent one Japanese. 
         </p>
 
         <!-- Hero -->
         <section class="p-5 mb-4 bg-body-tertiary rounded-3">
-            <h2 class="display-6 mb-3">Hero Section</h2>
+            <h2 class="display-6 mb-3">Skills</h2>
+            <ul style="list-style-type:disc;">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    </ul>
             <a class="btn btn-primary" href="#">Get Started</a>
         </section>
 
         <!-- Box -->
         <div class="box mb-4">
-            <h3 class="h5">Plain Box</h3>
-            <p class="mb-0">This is a plain div styled as a surface. <a href="#">Read more</a></p>
+            <h3 class="h5">Hobbies/Intrest</h3>
+            <p class="mb-0">Some of my hobbies or intrest include... 
+                    <ul style="list-style-type:disc;">
+                    <li><a href="https://www.youtube.com/@motogp">Motorcyles</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=rag_tPxv858">Cars</a></li>
+                    <li>Gaming or <a href="https://www.nexusmods.com/">Moding games</a></a></li>
+                    <li>Reading fan fiction on <a href="https://www.webnovel.com/">Web Novel</a></li>
+                    </ul>
+            
+            </p>
         </div>
 
         <!-- Card -->
         <div class="card shadow-sm mb-4" style="max-width: 40rem;">
             <div class="card-body">
-                <h4 class="card-title h5">Card Title</h4>
-                <p class="card-text">Cards pick up the surface/background and text from the theme.</p>
-                <a class="btn btn-primary" href="#">Card Action</a>
+                <h4 class="card-title h5">Some Pictures of my hobbies</h4>
+                <div id="Hobbies" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#Hobbies" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#Hobbies" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#Hobbies" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Images/3x3Board.png" alt="3x3 Tic tac toe board" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="Images/3x3Win.png" alt="3x3 Tic tac toe win display" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="Images/3x3Tie.png" alt="3x3 Tic tac toe board tie display" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#Hobbies" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#Hobbies" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
             </div>
         </div>
-
-        <!-- List group -->
-        <ul class="list-group" style="max-width: 28rem;">
-            <li class="list-group-item">First item</li>
-            <li class="list-group-item">Second item</li>
-            <li class="list-group-item">Third item</li>
-        </ul>
-    </main>
-
-
-
 
     <script>
         // Load only the #site-nav element
