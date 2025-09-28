@@ -2,15 +2,15 @@
    LIGHT THEME — EDIT THESE 5
    ============================= */
 :root {
-  --bg: #EFDDFD;
+  --bg: #a4e2ff;
   /* page background */
   --text: #210934;
   /* main text */
-  --surface: #F6EAFF;
+  --surface: #9fdef7;
   /* cards, boxes, list items */
-  --nav: #36065B;
+  --nav: #011635;
   /* navbar (dark bar) */
-  --accent: #7C3AED;
+  --accent: #5d00ff;
   /* links & primary buttons */
 
   --hero: #F1E8FF;
@@ -24,7 +24,7 @@
 /* Auto-derived (you can ignore) */
 :root {
   --accent-hover: color-mix(in srgb, var(--accent) 85%, black);
-  --on-nav: #FFFFFF;
+  --on-nav: #ffffff;
   /* text on dark navbar */
   --border: #E6D6FF;
   /* soft borders */
